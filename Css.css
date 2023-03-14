@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+body {
+
+    font-family: comfortaa;
+    color: white;
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #444;
+   /* position: -webkit-sticky;  Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #222;
+  }
+  .active {
+    background-color: #04AA6D;
+  }
+  li:last-child {
+    border-right: none;
+  }
+.logo {
+    display:block;
+    width: 1rem;
+    }
+
+#main-container {
+
+    text-align: center;
+
+}
