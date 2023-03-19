@@ -51,3 +51,102 @@ ul {
     text-align: center;
 
 }
+
+#intro {
+ 
+  margin-left: 2.5rem;
+  margin-bottom: 2rem;
+  justify-content:stretch;
+  font-weight: 600;
+  font-size: 2rem;
+
+}
+
+.introsubheading {
+  margin-left: 5rem;
+  justify-content: stretch;
+  font-weight: 200;
+  font-size: 1.3rem; 
+
+
+}
+.introsubheading2 {
+  margin-left: 20rem;
+  justify-content: stretch;
+  font-weight: 200;
+  font-size: 1.3rem; 
+
+
+}
+
+.whatisaoc { 
+
+  justify-content:center;
+  text-align: center;
+  
+  margin-left: 5rem;
+  margin-right: 5rem;
+  font-size: 1.05rem;
+}
+
+.continuedhomepage {
+
+  margin-right: 15rem;
+  margin-left: 15rem;
+
+}
+
+.transition-image {
+
+  margin: auto, auto, auto, auto;
+
+}
+
+
+
+.commonerrorsarticle {
+  border-style: solid;
+  border-color: #bbb;
+  border-width: 2px;
+  text-align: center;
+
+}
+
+.modpackinstallationarticle {
+  border-style: solid;
+  border-color: #bbb;
+  border-width: 2px;
+  text-align: center;
+
+
+}
+
+.credit {
+
+  font-size: small;
+  font-weight: 200;
+  color: grey;
+
+}
+
+.cpanelliink {
+
+
+  font-size: 5rem;
+
+}
+
+.cpanelliink:hover {
+
+
+  font-size: 5rem;
+  color: white
+}
+
+.skillsystemarticle {
+
+  border-style: solid;
+  border-color: #bbb;
+  border-width: 2px;
+  text-align: center;
+}
