@@ -195,3 +195,13 @@ ul {
     display: none;
   }
 }
+
+.deathsystemarticle {
+  border-style: solid;
+  border-color: #bbb;
+  border-width: 2px;
+  text-align: center;
+
+}
+
+
