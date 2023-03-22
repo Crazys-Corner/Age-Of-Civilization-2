@@ -81,7 +81,7 @@ ul {
 
 .whatisaoc { 
 
-  justify-content:center;
+
   text-align: center;
   
   margin-left: 5rem;
@@ -91,9 +91,14 @@ ul {
 
 .continuedhomepage {
 
-  margin-right: 15rem;
-  margin-left: 15rem;
 
+  text-align: center;
+  display: block;
+
+}
+.aboutstaffmember {
+  inline-size: 1px;
+  overflow-wrap: break-word;
 }
 
 .transition-image {
@@ -189,10 +194,36 @@ ul {
   
 /*   filter: blur(0px);   */
 }
-
+@media only screen and (min-width: 600px){ 
+  div.transition-image-mobile {
+    display:none;
+  }
+  div.continuedhomepage{
+    margin-left: 12rem;
+    margin-right: 12rem;
+  }
+}
 @media only screen and (max-width: 600px) {
   div.sidenav {
     display: none;
+  }
+  div#intro {
+    text-align: left;
+}
+  span.introsubheading {
+   text-align: left;
+  }
+  span.introsubheading2 {
+   text-align: left;
+   margin-left: 0rem;
+  }
+  div.transition-image {
+    display: none;
+  }
+  div.whatisaoc {
+    display: block;
+    margin-left: 0rem;
+    margin-right: 0rem;
   }
 }
 
@@ -203,5 +234,3 @@ ul {
   text-align: center;
 
 }
-
-
